@@ -27,11 +27,11 @@ header  {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../images/bayarea.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-position: 80%;
+    background-position: 30%;
     z-index: 9999;
 }
 
@@ -116,7 +116,7 @@ header nav ul li a {
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("../images/bayarea.jpg");
   background-size: cover;
   /*background-position: center;*/
   background-attachment: fixed;
@@ -160,7 +160,7 @@ hero-form h3 {
 .hero-cta h2 {
   font-style: italic;
   font-size: 55px;
-  color: #fce138;
+  color: #76680e;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
