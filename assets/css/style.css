@@ -13,7 +13,8 @@
 body {
      /* more on this crazy alphanumerical value in a minute! */
   color: #39a6b2;
-  font-family: Helvetica, Arial, sans-serif;
+  /*font-family: Helvetica, Arial, sans-serif;*/
+  font-family: Georgia, 'Times New Roman', Times, serif;
   
 }
 
@@ -209,7 +210,7 @@ hero-form h3 {
 
 .steps { 
 
-  background: #fce138;
+  background: #efeee7;
 }
 
 
@@ -290,7 +291,7 @@ hero-form h3 {
  
 }*/
 
-.trainer {
+.personal {
   flex: 1;
   margin: 0 auto 30px auto;
   background: #024e76;
@@ -298,11 +299,11 @@ hero-form h3 {
   
 }
 
-.trainer img {
+.personal img {
   width: 100%;
 }
 
-.trainer-bio {
+.personal-bio {
   padding: 25px;
   line-height: 1.3;
 }
@@ -315,18 +316,18 @@ hero-form h3 {
   text-align: right;
 }
 
-.trainer-bio h3 {
+.personal-bio h3 {
   font-size: 28px;
  
 }
 
-.trainer-bio h4 {
+.personal-bio h4 {
   font-weight: lighter;
   font-size: 22px;
   margin-bottom: 15px;
 }
 
-.trainer-bio p {
+.personal-bio p {
   font-size: 17px;
   
 }
@@ -493,23 +494,23 @@ hero-form h3 {
 
 
 /* need to be added before media queries */
-.service-grid-container {
+.grid-container {
   display: grid;
 }
 
-.service-grid-item {
+.grid-item {
   width: 200px;
   height: 50px;
   /*background-color: orange;*/
   border: solid;
   color: black;
 }
-.service-grid-container {
+.grid-container {
   background: lightyellow;
-  width: 80%;
+  width: 100%;
   display: grid;
   /* repeat(iterator, size) */
-  grid-template-columns: 1fr repeat(2, 4fr);
+  grid-template-columns: 1fr repeat(2, 8fr);
   grid-template-rows: repeat(5, 1fr) 2fr;
   border: 2px solid #024e76;
   color:  #024e76;
@@ -518,11 +519,11 @@ hero-form h3 {
 }
 
 /* specific match */
-.service-grid-item.basic {
+.grid-item.basic {
   grid-column: 2 / span 1;
 }
 
-.service-grid-item {
+.grid-item {
   padding: 15px 0;
   border: 2px solid #024e76;
   display: flex;
@@ -532,31 +533,27 @@ hero-form h3 {
  
 }
 
-/* SERVICE STYLES BEGIN */
+/* SERVICE STYLES BEGIN 
 .services {
-  background: #fce138; 
+  background: #fce138; */
 }
 
-.service-grid-wrapper {
+.grid-wrapper {
   display: flex;
   width: 100%;
   justify-content: center;
 }
 
 
-.service-grid-item.both {
-  grid-column: 2 / span 2;
-}
-
-.service-grid-item.cancel {
+.grid-item.work {
   grid-row: 1 / -1;
 }
 
-.service-grid-item.cancel {
-  writing-mode: vertical-lr; 
+.grid-item.work {
+  writing-mode: horizontal; 
   grid-column: 1;
   grid-row: 1 / -1;
-  transform: rotate(180deg);
+  /*transform: rotate(180deg);*/
 }
 
 
@@ -640,19 +637,16 @@ hero-form h3 {
     flex: 100%;  
   }
 
-  .service-grid-container {
-    grid-template-columns: 1fr 1fr;
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .service-grid-item.basic {
+  .grid-item.basic {
     grid-column: 1;
   }
 
-  .service-grid-item.both {
-    grid-column: 1 / -1;
-  }
 
-  .service-grid-item.cancel {
+  .grid-item.work {
     transform: none;
     writing-mode: unset;
     grid-column: 1 / -1;
