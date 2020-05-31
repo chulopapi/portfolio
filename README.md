@@ -1,8 +1,7 @@
-# 02 Advanced CSS: Portfolio
+Marlon Guandique's Portfolio
 
-A portfolio is often the first point of contact for employers looking to fill a position or clients in need of a developer to complete a project. A clean and informative portfolio showcases a developer's strongest work and can lead to employment and/or more clients. Build a professional portfolio site using HTML and advanced CSS, such as flexbox, CSS Grid Layout, media queries, and CSS variables.
+The following portfolio will provide the list of the complete projects that I have been deployed as developer.  I am be able to showcase my professional portfolio of my strongest work where I have using web developing tools such as HTML, CSS as well as advanced CSS features such as Flexbox, CSS Grid Layaout, Media Queries and CSS Variables.  
 
-If you don't have enough applications to showcase at this point, add in some placeholder images and names. You can change these to real applications as you create them later in the course.
 
 ## User Story
 
@@ -13,6 +12,7 @@ SO THAT I can review samples of the developer's work
 ```
 
 ## Acceptance Criteria
+
 
 ```
 GIVEN I need to sample a potential employee's previous work
@@ -30,17 +30,20 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-The following animation demonstrates the application functionality:
-
-![portfolio demo](./02-Challenge/Assets/02-advanced-css-homework-demo.gif)
 
 ## Review
 
 You are required to submit the following for review:
 
-* The URL of the deployed application.
+* The URL of the deployed application:
 
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README describing the project.
+https://chulopapi.github.io/portfolio/
 
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+* The URL of the GitHub repository:
+
+https://github.com/chulopapi/portfolio
+
+
+After the conclusion of building my professional portfolio, please see the following key elements of this project:
+
+1. 
