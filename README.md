@@ -46,4 +46,12 @@ https://github.com/chulopapi/portfolio
 
 After the conclusion of building my professional portfolio, please see the following key elements of this project:
 
-1. 
+1. I was able to load the my portolio website without any errors when loading the site. 
+2. I placed pictures as place holder representing sections on my work, using grid-container to achieve the deployment:
+ ex: <img width="1296" alt="MarlonPortfolioMain" src="https://user-images.githubusercontent.com/14985358/83376883-b1ace800-a388-11ea-9710-e38a527e2aca.png">
+
+3. I am ble to UI scrolls to corresponding sections as expected for a better customer experience:
+ ex: <img width="758" alt="exploring_applications" src="https://user-images.githubusercontent.com/14985358/83377619-fa65a080-a38a-11ea-9430-fc764d063e43.png">
+
+4. I am able to resize the page or view the site on various screens and devices:
+   ex: <img width="575" alt="resizing" src="https://user-images.githubusercontent.com/14985358/83377578-c8ecd500-a38a-11ea-851a-530541359855.png">
